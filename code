@@ -1,0 +1,21 @@
+
+ЗАДАНИЕ 1
+x = float(input("Введите значение x: "))
+
+
+y = x**2 - 2
+
+# Вывод результата
+print(f"Значение функции y(x) = {y:.2f}, при значении x = {x:.2f}")
+
+
+ЗАДАНИЕ 2 
+
+smartphones = []
+
+for _ in range(4):
+    line = input("Введите данные (формат: название:цена): ")
+    name, price = line.split(":")
+    smartphones.append([name.strip(), float(price.strip())])
+
+print(smartphones)
